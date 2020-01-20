@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "567472498803",
+    "firebase_url": "https://skillful-fx-231110.firebaseio.com",
+    "project_id": "skillful-fx-231110",
+    "storage_bucket": "skillful-fx-231110.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:567472498803:android:bb7e152fb61592eec3a206",
+        "android_client_info": {
+          "package_name": "com.appin.fireemailauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "567472498803-vcjckg00dkkl22hrqgj9pmckk9v0gb00.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appin.fireemailauth",
+            "certificate_hash": "79a763658ee83a7635cf24092e72a30990ce83dc"
+          }
+        },
+        {
+          "client_id": "567472498803-nssmlvdljer4cabhuorkuvfamnupt1r0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiViNRWHTv4Enc_Hm8RcRYQa-hpWExZv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "567472498803-nssmlvdljer4cabhuorkuvfamnupt1r0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
