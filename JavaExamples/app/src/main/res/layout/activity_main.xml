@@ -96,5 +96,29 @@
             android:layout_height="wrap_content"
             android:text="Checkbox and Custom Checkbox Example" />
 
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Radio Button And Custom Radio Button Example" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dynamic Radio Button Ex" />
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android SQLite Example" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android SQLite Spinner Example" />
+
     </LinearLayout>
 </ScrollView>

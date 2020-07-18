@@ -43,7 +43,14 @@ public class MainActivity extends AppCompatActivity {
     Button button13;
     @BindView(R.id.button14)
     Button button14;
-
+    @BindView(R.id.button15)
+    Button button15;
+    @BindView(R.id.button16)
+    Button button16;
+    @BindView(R.id.button17)
+    Button button17;
+    @BindView(R.id.button18)
+    Button button18;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -53,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    @OnClick({R.id.button, R.id.button2, R.id.button3, R.id.button4, R.id.button5, R.id.button6, R.id.button7, R.id.button8, R.id.button9, R.id.button10, R.id.button11, R.id.button12, R.id.button13, R.id.button14})
+    @OnClick({R.id.button, R.id.button2, R.id.button3, R.id.button4, R.id.button5, R.id.button6, R.id.button7, R.id.button8, R.id.button9, R.id.button10, R.id.button11, R.id.button12, R.id.button13, R.id.button14, R.id.button15, R.id.button16,R.id.button17,R.id.button18})
     public void onViewClicked(View view) {
         Intent intent;
         switch (view.getId()) {
@@ -111,6 +118,22 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.button14:
                 intent = new Intent(getApplicationContext(), CheckboxAndCustomCheckboxEx.class);
+                startActivity(intent);
+                break;
+            case R.id.button15:
+                intent = new Intent(getApplicationContext(), RadioButtonAndCustomRadioButtonEx.class);
+                startActivity(intent);
+                break;
+            case R.id.button16:
+                intent = new Intent(getApplicationContext(), DynamicRadioButtonEx.class);
+                startActivity(intent);
+                break;
+            case R.id.button17:
+                intent = new Intent(getApplicationContext(), AndroidSqliteEx.class);
+                startActivity(intent);
+                break;
+            case R.id.button18:
+                intent = new Intent(getApplicationContext(), AndroidSqliteSpinnerEx.class);
                 startActivity(intent);
                 break;
         }

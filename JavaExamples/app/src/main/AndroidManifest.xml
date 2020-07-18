@@ -11,7 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CheckboxAndCustomCheckboxEx"></activity>
+        <activity android:name=".AndroidSqliteSpinnerEx"></activity>
+        <activity android:name=".AndroidSqliteEx" />
+        <activity android:name=".DynamicRadioButtonEx" />
+        <activity android:name=".RadioButtonAndCustomRadioButtonEx" />
+        <activity android:name=".CheckboxAndCustomCheckboxEx" />
         <activity android:name=".ToggleButtonEx" />
         <activity android:name=".AndroidChocoBarEx" />
         <activity android:name=".AndroidSnackBarEx" />
