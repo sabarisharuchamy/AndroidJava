@@ -7,4 +7,13 @@
     <color name="colorDivide">#FFEB3B</color>
     <color name="actionTextColor">#E64A19</color>
     <color name="colorBg">#FBE9E7</color>
+    <color name="colorPrimary2">#3F51B5</color>
+    <color name="colorPrimaryDark2">#303F9F</color>
+    <color name="colorAccent2">#FF4081</color>
+    <color name="orange">#FF3909</color>
+    <color name="colorAccentDark">#00B482</color>
+    <color name="colorBlack">#555555</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGrey">#707070</color>
+    <color name="colorGreyLight">#8A8A8A</color>
 </resources>

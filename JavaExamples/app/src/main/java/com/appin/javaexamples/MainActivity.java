@@ -51,6 +51,14 @@ public class MainActivity extends AppCompatActivity {
     Button button17;
     @BindView(R.id.button18)
     Button button18;
+    @BindView(R.id.button19)
+    Button button19;
+    @BindView(R.id.button20)
+    Button button20;
+    @BindView(R.id.button21)
+    Button button21;
+    @BindView(R.id.button22)
+    Button button22;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -60,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    @OnClick({R.id.button, R.id.button2, R.id.button3, R.id.button4, R.id.button5, R.id.button6, R.id.button7, R.id.button8, R.id.button9, R.id.button10, R.id.button11, R.id.button12, R.id.button13, R.id.button14, R.id.button15, R.id.button16,R.id.button17,R.id.button18})
+    @OnClick({R.id.button, R.id.button2, R.id.button3, R.id.button4, R.id.button5, R.id.button6, R.id.button7, R.id.button8, R.id.button9, R.id.button10, R.id.button11, R.id.button12, R.id.button13, R.id.button14, R.id.button15, R.id.button16,R.id.button17,R.id.button18,R.id.button19,R.id.button20,R.id.button21,R.id.button22})
     public void onViewClicked(View view) {
         Intent intent;
         switch (view.getId()) {
@@ -134,6 +142,22 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.button18:
                 intent = new Intent(getApplicationContext(), AndroidSqliteSpinnerEx.class);
+                startActivity(intent);
+                break;
+            case R.id.button19:
+                intent = new Intent(getApplicationContext(), AndroidRetrofitEx.class);
+                startActivity(intent);
+                break;
+            case R.id.button20:
+                intent = new Intent(getApplicationContext(), AndroidThreadingEx.class);
+                startActivity(intent);
+                break;
+            case R.id.button21:
+                intent = new Intent(getApplicationContext(), ShareDataBetweenFragments.class);
+                startActivity(intent);
+                break;
+            case R.id.button22:
+                intent = new Intent(getApplicationContext(), ShareDataBetweenFragmentsViewModel.class);
                 startActivity(intent);
                 break;
         }

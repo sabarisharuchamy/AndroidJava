@@ -10,8 +10,15 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".AndroidSqliteSpinnerEx"></activity>
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".ShareDataBetweenFragmentsViewModel" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".ShareDataBetweenFragments"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AndroidThreadingEx" />
+        <activity android:name=".AndroidRetrofitEx" />
+        <activity android:name=".AndroidSqliteSpinnerEx" />
         <activity android:name=".AndroidSqliteEx" />
         <activity android:name=".DynamicRadioButtonEx" />
         <activity android:name=".RadioButtonAndCustomRadioButtonEx" />

@@ -120,5 +120,29 @@
             android:layout_height="wrap_content"
             android:text="Android SQLite Spinner Example" />
 
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android Retrofit Example" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AndroidThreadingEx" />
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share Data Between Fragments" />
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share Data Between Fragments View Model" />
+
     </LinearLayout>
 </ScrollView>
