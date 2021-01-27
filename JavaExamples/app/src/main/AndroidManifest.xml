@@ -37,6 +37,7 @@
         <activity android:name=".HorizontalCalendarEx" />
         <activity android:name=".DisplayPatientDetails" />
         <activity android:name=".JsonArrayEx" />
+        <activity android:name=".AndroidWebViewEx"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -144,5 +144,17 @@
             android:layout_height="wrap_content"
             android:text="Share Data Between Fragments View Model" />
 
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android WebView Ex" />
+
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android Notification Example" />
+
     </LinearLayout>
 </ScrollView>

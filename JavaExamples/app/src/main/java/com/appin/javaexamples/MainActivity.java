@@ -59,6 +59,10 @@ public class MainActivity extends AppCompatActivity {
     Button button21;
     @BindView(R.id.button22)
     Button button22;
+    @BindView(R.id.button23)
+    Button button23;
+    @BindView(R.id.button24)
+    Button button24;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -68,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    @OnClick({R.id.button, R.id.button2, R.id.button3, R.id.button4, R.id.button5, R.id.button6, R.id.button7, R.id.button8, R.id.button9, R.id.button10, R.id.button11, R.id.button12, R.id.button13, R.id.button14, R.id.button15, R.id.button16,R.id.button17,R.id.button18,R.id.button19,R.id.button20,R.id.button21,R.id.button22})
+    @OnClick({R.id.button, R.id.button2, R.id.button3, R.id.button4, R.id.button5, R.id.button6, R.id.button7, R.id.button8, R.id.button9, R.id.button10, R.id.button11, R.id.button12, R.id.button13, R.id.button14, R.id.button15, R.id.button16,R.id.button17,R.id.button18,R.id.button19,R.id.button20,R.id.button21,R.id.button22,R.id.button23,R.id.button24})
     public void onViewClicked(View view) {
         Intent intent;
         switch (view.getId()) {
@@ -160,6 +164,14 @@ public class MainActivity extends AppCompatActivity {
                 intent = new Intent(getApplicationContext(), ShareDataBetweenFragmentsViewModel.class);
                 startActivity(intent);
                 break;
+            case R.id.button23:
+                intent = new Intent(getApplicationContext(), AndroidWebViewEx.class);
+                startActivity(intent);
+                break;
+            //case R.id.button24:
+                //intent = new Intent(getApplicationContext(), AndroidNotificationEx.class);
+                //startActivity(intent);
+                //break;
         }
     }
 
