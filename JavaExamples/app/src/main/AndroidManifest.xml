@@ -12,7 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".ShareDataBetweenFragmentsViewModel" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".AndroidOptionsMenuEx" android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".AndroidDataBindingEx" />
+        <activity android:name=".AndroidSplashScreenEx" />
+        <activity
+            android:name=".ShareDataBetweenFragmentsViewModel"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ShareDataBetweenFragments"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -37,7 +42,7 @@
         <activity android:name=".HorizontalCalendarEx" />
         <activity android:name=".DisplayPatientDetails" />
         <activity android:name=".JsonArrayEx" />
-        <activity android:name=".AndroidWebViewEx"></activity>
+        <activity android:name=".AndroidWebViewEx" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
