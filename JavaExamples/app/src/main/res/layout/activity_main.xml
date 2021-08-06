@@ -168,5 +168,70 @@
             android:layout_height="wrap_content"
             android:text="Android Options Menu Example" />
 
+        <Button
+            android:id="@+id/button27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android Sliding Drawer Example" />
+
+        <Button
+            android:id="@+id/button28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android Session Shared Preferences Example" />
+
+        <Button
+            android:id="@+id/button29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android Expandable Floating Button Ex" />
+
+        <Button
+            android:id="@+id/button30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android Web Service Example" />
+
+        <Button
+            android:id="@+id/button31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android Scratch Card Example1" />
+
+        <Button
+            android:id="@+id/button32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android Scratch Card Example2" />
+        <Button
+            android:id="@+id/button33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android Orientation Limit Example" />
+        <Button
+            android:id="@+id/button34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android Vibration Example1" />
+        <Button
+            android:id="@+id/button35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android Vibration Example2" />
+        <Button
+            android:id="@+id/button36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android MediaStore Example" />
+        <Button
+            android:id="@+id/button37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android Read Excel Example" />
+        <Button
+            android:id="@+id/button38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android Horizontal RecyclerView Example" />
     </LinearLayout>
 </ScrollView>

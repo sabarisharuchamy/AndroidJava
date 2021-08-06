@@ -1,6 +1,7 @@
 package com.appin.javaexamples;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -13,7 +14,7 @@ import butterknife.OnClick;
 
 
 public class MainActivity extends AppCompatActivity {
-
+    SharedPreferences pref;
 
     @BindView(R.id.button)
     Button button;
@@ -67,6 +68,30 @@ public class MainActivity extends AppCompatActivity {
     Button button25;
     @BindView(R.id.button26)
     Button button26;
+    @BindView(R.id.button27)
+    Button button27;
+    @BindView(R.id.button28)
+    Button button28;
+    @BindView(R.id.button29)
+    Button button29;
+    @BindView(R.id.button30)
+    Button button30;
+    @BindView(R.id.button31)
+    Button button31;
+    @BindView(R.id.button32)
+    Button button32;
+    @BindView(R.id.button33)
+    Button button33;
+    @BindView(R.id.button34)
+    Button button34;
+    @BindView(R.id.button35)
+    Button button35;
+    @BindView(R.id.button36)
+    Button button36;
+    @BindView(R.id.button37)
+    Button button37;
+    @BindView(R.id.button38)
+    Button button38;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -76,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    @OnClick({R.id.button, R.id.button2, R.id.button3, R.id.button4, R.id.button5, R.id.button6, R.id.button7, R.id.button8, R.id.button9, R.id.button10, R.id.button11, R.id.button12, R.id.button13, R.id.button14, R.id.button15, R.id.button16,R.id.button17,R.id.button18,R.id.button19,R.id.button20,R.id.button21,R.id.button22,R.id.button23,R.id.button24,R.id.button25,R.id.button26})
+    @OnClick({R.id.button, R.id.button2, R.id.button3, R.id.button4, R.id.button5, R.id.button6, R.id.button7, R.id.button8, R.id.button9, R.id.button10, R.id.button11, R.id.button12, R.id.button13, R.id.button14, R.id.button15, R.id.button16,R.id.button17,R.id.button18,R.id.button19,R.id.button20,R.id.button21,R.id.button22,R.id.button23,R.id.button24,R.id.button25,R.id.button26,R.id.button27,R.id.button28,R.id.button29,R.id.button30,R.id.button31,R.id.button32, R.id.button33, R.id.button34, R.id.button35, R.id.button36, R.id.button37, R.id.button38})
     public void onViewClicked(View view) {
         Intent intent;
         switch (view.getId()) {
@@ -182,6 +207,60 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.button26:
                 intent = new Intent(getApplicationContext(), AndroidOptionsMenuEx.class);
+                startActivity(intent);
+                break;
+            case R.id.button27:
+                intent = new Intent(getApplicationContext(), AndroidSlidingDrawerEx.class);
+                startActivity(intent);
+                break;
+            case R.id.button28:
+                pref = getSharedPreferences("user_details",MODE_PRIVATE);
+                if(pref.contains("username") && pref.contains("password")){
+                    intent = new Intent(getApplicationContext(),DetailsActivity.class);
+                    startActivity(intent);
+                }else {
+                    intent = new Intent(getApplicationContext(), AndroidSessionSharedPreferencesEx.class);
+                    startActivity(intent);
+                }
+                break;
+            case R.id.button29:
+                intent = new Intent(getApplicationContext(),AndroidExpandableFloatingButtonEx.class);
+                startActivity(intent);
+                break;
+            case R.id.button30:
+                intent = new Intent(getApplicationContext(),AndroidWebServiceEx.class);
+                startActivity(intent);
+                break;
+            case R.id.button31:
+                intent = new Intent(getApplicationContext(),AndroidScratchCardEx1.class);
+                startActivity(intent);
+                break;
+            case R.id.button32:
+                intent = new Intent(getApplicationContext(),AndroidScratchCardEx2.class);
+                startActivity(intent);
+                break;
+            case R.id.button33:
+                intent = new Intent(getApplicationContext(),AndroidOrientationLimitEx.class);
+                startActivity(intent);
+                break;
+            case R.id.button34:
+                intent = new Intent(getApplicationContext(),AndroidVibrationEx1.class);
+                startActivity(intent);
+                break;
+            case R.id.button35:
+                intent = new Intent(getApplicationContext(),AndroidVibrationEx2.class);
+                startActivity(intent);
+                break;
+            case R.id.button36:
+                intent = new Intent(getApplicationContext(),AndroidMediaStoreEx.class);
+                startActivity(intent);
+                break;
+            case R.id.button37:
+                intent = new Intent(getApplicationContext(),AndroidReadExcelEx.class);
+                startActivity(intent);
+                break;
+            case R.id.button38:
+                intent = new Intent(getApplicationContext(),AndroidHorizontalRecyclerViewEx.class);
                 startActivity(intent);
                 break;
         }
